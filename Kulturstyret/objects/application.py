@@ -14,7 +14,7 @@ class application(object):
 
 
     def dummy(self, arg):
-        # Lager en dummy søknadene
+        # Lager en dummy søknad for testing og utvikling
 
         self.org.name = 'Improperatørene'
         self.org.number = '1233243435123'
@@ -49,7 +49,8 @@ class application(object):
         self.leader.phone = '22274956'
         self.leader.email = 'pippidis+testing@gmail.com'
 
-
+        # Kategorisering:
+        self.mangler.
 
 
     def check(self):
