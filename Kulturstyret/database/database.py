@@ -1,5 +1,5 @@
 '''
-Denne filen inneholder alle klassen som har ansvaret for kontakt med databasen.
+Denne filen inneholder klassen som har ansvaret for kontakt med databasen.
 '''
 
 
