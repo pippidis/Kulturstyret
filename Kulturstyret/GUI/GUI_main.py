@@ -8,6 +8,16 @@ Dette er hovedfila for GUI delen av programmet. Den samler alle de andre GUI
 # Bygger på denne guiden slik den er nå: https://kivy.org/docs/guide/basic.html
 # Ved problemer se her: https://stackoverflow.com/questions/40769386/kivy-windows-unable-to-find-any-valuable-window-provider-at-all
 # per nå ser det ikke ut til å ville fungere i det hele tatt
+#
+# Fant løsning, må innstalere kivy slik:
+'''
+pip install --upgrade pip wheel setuptools
+pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
+pip install kivy.deps.gstreamer
+pip install kivy.deps.angle
+pip install kivy
+'''
+
 
 import kivy
 kivy.require('1.10.0') # replace with your current kivy version !
