@@ -1,4 +1,4 @@
-# THis is a test - and a first file.
+# This is a test - and a first file.
 
 
 
