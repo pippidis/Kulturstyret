@@ -114,10 +114,10 @@ def create_message_text():
 	to = 'johanlor@stud.ntnu.no'
 	subject = 'Sit Sponsorprogram - Vedtak'
 
-	start = 'Hei, \nKulturstyret har fattet følgende besluttning vedrørende deres søknad om støtte i Sit sponsorprogram denne perioden:\n'
+	start = 'Hei, \nKulturstyret har fattet følgende beslutning vedrørende deres søknad om støtte i Sit sponsorprogram denne perioden:\n'
 
 
-	slutt = '\nNB: Avgjørelsen kan ikke ankes eller påklages.\n\nMvh. \nJohannes Lorentzen\nLeder av kulturstyret'
+	slutt = '\nNB: Avgjørelsen kan ikke ankes eller påklages.\n\nMvh. \nJohannes Lorentzen\nLeder av Kulturstyret'
 
 	message_text = start + slutt
 	return to, subject, message_text
